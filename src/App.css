@@ -23,6 +23,10 @@ input{
   border: 1px solid hsla(0, 0%, 0%, 0.4);
 }
 
+input:hover, input:focus{
+  outline:none;
+}
+
 ::placeholder{
   opacity: 0.5;
 }
